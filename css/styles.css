@@ -1,0 +1,25 @@
+/*
+
+* Главные стили
+  
+*/
+
+/* Подключение настроек */
+@import url('./components/settings.css');
+
+
+/* Подключение стилей header */
+@import url('./components/header.css');
+
+
+/* Подключение стилей content */
+
+@import url('./components/content.css');
+
+/* Подключение стилей content */
+
+@import url('./components/footer.css');
+
+
+
+

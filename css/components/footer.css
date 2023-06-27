@@ -1,0 +1,21 @@
+.footer{
+  padding: 24px 0;
+  flex: 0 0 auto;
+  background-color: #303030;
+}
+
+.footer__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
+}
+
+.footer__copyright{
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 500;
+}
